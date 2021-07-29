@@ -5,7 +5,7 @@ const app = require('./app');
 const http = require('http');
 const server = http.createServer(app);
 
-server.listen("/", () => console.log(`Trading card app listening at root`));
+server.listen(PORT, () => console.log(`Trading card app listening at http://localhost:${PORT}`));
 
 // var express = require('express');
 // var router = express.Router();
