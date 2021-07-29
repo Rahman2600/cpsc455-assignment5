@@ -1,11 +1,11 @@
-// require('dotenv').config();
+require('dotenv').config();
 
-// const PORT = process.env.PORT;
-// const app = require('./app');
-// const http = require('http');
-// const server = http.createServer(app);
+const PORT = process.env.PORT;
+const app = require('./app');
+const http = require('http');
+const server = http.createServer(app);
 
-// server.listen(PORT, () => console.log(`Trading card app listening at http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`Trading card app listening at http://localhost:${PORT}`));
 
 // var express = require('express');
 // var router = express.Router();
